@@ -9,7 +9,7 @@ export default function Hero() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
-        className="text-center max-w-3xl"
+        className="text-center max-w-4xl"
       >
         <p className="text-[#a1a1aa] mb-4 text-lg">Olá, meu nome é</p>
         
@@ -22,8 +22,7 @@ export default function Hero() {
         </p>
         
         <p className="text-[#a1a1aa] text-lg max-w-2xl mb-12">
-          Desenvolvo experiências digitais com React, Next.js e C#. 
-          Estou construindo minha carreira como desenvolvedor júnior.
+          Desenvolvo aplicações web com React, Next.js, Node.js e C#, focando em performance, organização de código e boas práticas de desenvolvimento.
         </p>
         
         <div className="flex gap-4 justify-center">
@@ -35,7 +34,7 @@ export default function Hero() {
           </a>
           <a
             href="#contato"
-            className="px-8 py-3 bg-[#dc2626] text-white rounded-lg hover:bg-[#b91c1c] transition-all duration-300 glow-red"
+            className="px-8 py-3 bg-[#991b1b] text-white rounded-lg hover:bg-[#7f1d1d] transition-all duration-300 glow-red"
           >
             Contato
           </a>

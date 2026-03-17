@@ -12,10 +12,10 @@ export default function Projects() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
-        className="max-w-5xl mx-auto"
+        className="max-w-4xl mx-auto"
       >
         <h2 className="text-3xl md:text-4xl font-bold mb-12">
-          <span className="text-[#dc2626]">02.</span> Projetos
+          <span className="text-[#991b1b]">02.</span> Projetos
         </h2>
 
         <div className="grid md:grid-cols-2 gap-8">
@@ -60,7 +60,7 @@ export default function Projects() {
                 {project.tech.map((tech) => (
                   <span
                     key={tech}
-                    className="text-sm text-[#9333ea] bg-[#9333ea]/10 px-3 py-1 rounded"
+                    className="text-sm text-[#9333ea] bg-[#9333ea]/10 px-3 py-1 rounded font-[family-name:var(--font-jetbrains-mono)]"
                   >
                     {tech}
                   </span>

@@ -23,6 +23,7 @@ export const skills = [
   { name: "React", icon: "react" },
   { name: "Next.js", icon: "nextjs" },
   { name: "TypeScript", icon: "typescript" },
+  { name: "Node.js", icon: "node" },
   { name: "C#", icon: "csharp" },
   { name: ".NET", icon: "dotnet" },
   { name: "Tailwind CSS", icon: "tailwind" },

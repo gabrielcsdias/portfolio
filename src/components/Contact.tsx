@@ -6,16 +6,16 @@ import { Github, Linkedin, Mail } from "lucide-react";
 
 export default function Contact() {
   return (
-    <section id="contato" className="min-h-screen py-20 px-6">
+    <section id="contato" className="min-h-[90vh] py-20 px-6">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
-        className="max-w-3xl mx-auto text-center"
+        className="max-w-4xl mx-auto text-center"
       >
         <h2 className="text-3xl md:text-4xl font-bold mb-12">
-          <span className="text-[#dc2626]">04.</span> Contato
+          <span className="text-[#991b1b]">04.</span> Contato
         </h2>
         
         <p className="text-[#a1a1aa] text-lg mb-12">
