@@ -33,14 +33,16 @@ export default function Projects() {
                   {project.title}
                 </h3>
                 <div className="flex gap-3">
-                  <a
-                    href={project.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-[#a1a1aa] hover:text-white transition-colors"
-                  >
-                    <Github size={20} />
-                  </a>
+                  {project.github && (
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-[#a1a1aa] hover:text-white transition-colors"
+                    >
+                      <Github size={20} />
+                    </a>
+                  )}
                   {project.demo && (
                     <a
                       href={project.demo}

@@ -17,6 +17,15 @@ export const projects = [
     github: "https://github.com/gabrielcsdias/TrackPath",
     demo: "",
   },
+  {
+    id: 3,
+    title: "SchedFlow",
+    description:
+      "Sistema de agendamentos online para pequenas empresas. Permite que empresas criem horários disponíveis e clientes agendem através de um link público. Inclui autenticação, painel administrativo, templates de email customizáveis e integração com Google Calendar.",
+    tech: ["Next.js 16", "Supabase", "PostgreSQL", "Tailwind CSS v4", "JWT", "Nodemailer"],
+    github: "",
+    demo: "https://sched-flow.vercel.app/",
+  },
 ];
 
 export const skills = [
