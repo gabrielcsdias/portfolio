@@ -15,7 +15,7 @@ export default function Contact() {
         className="max-w-4xl mx-auto text-center"
       >
         <h2 className="text-3xl md:text-4xl font-bold mb-12">
-          <span className="text-[#991b1b]">04.</span> Contato
+          <span className="text-[#991b1b]">05.</span> Contato
         </h2>
         
         <p className="text-[#a1a1aa] text-lg mb-12">

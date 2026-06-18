@@ -39,6 +39,39 @@ export const skills = [
   { name: "Git", icon: "git" },
 ];
 
+export const contributions = [
+  {
+    name: "B2B Plataforma de Hotéis",
+    description: "Plataforma que conecta hotéis a profissionais operacionais para serviços terceirizados",
+    image: "/images/b2bhotel-logo.png",
+  },
+  {
+    name: "Motorah",
+    description: "App para administração de transportadoras do Mercado Livre",
+    image: "/images/motorah-logo.png",
+  },
+  {
+    name: "Rede Maristas",
+    description: "Rede de educação, saúde e ação social com atuação em todo o Brasil",
+    image: "/images/maristas-logo.png",
+  },
+  {
+    name: "Nous Group",
+    description: "Conglomerado de criação de startups em Agronegócio, Energia e Inovação",
+    image: "/images/nous-logo.webp",
+  },
+  {
+    name: "Senac Rio Grande do Sul",
+    description: "Instituição de educação profissional voltada ao comércio e serviços",
+    image: "/images/senacrs-logo.png",
+  },
+  {
+    name: "Sinos Tecnologia",
+    description: "ERP para gestão de oficinas mecânicas e auto centers",
+    image: "/images/sinos-logo.png",
+  },
+];
+
 export const socials = {
   github: "https://github.com/gabrielcsdias",
   linkedin: "https://www.linkedin.com/in/gabrielcsdias/",
